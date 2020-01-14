@@ -1,0 +1,70 @@
+body {
+    background-color: gray;
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header,
+nav,
+section,
+aside,
+footer {
+    color: black;
+    background-color: white;
+    font-family: "Georgia", "Times New Roman"
+        padding: 20px;
+    margin: 10px auto 0px auto;
+    font-size: 18px;
+    line-height: 150% height: 50px;
+}
+
+header,
+nav,
+footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+section,
+aside {
+    box-sizing: border-box;
+    margin: 20px auto 10px auto;
+    padding-top: 20px;
+}
+
+section {
+    float: left;
+    width: 55%;
+    height: 275px;
+}
+
+aside {
+    float: right;
+    width: 42%;
+    height: 275px;
+}
+
+article {
+    background-color: #777777;
+    color: #ebebeb;
+    box-sizing: border-box;
+    height: 75%;
+    margin: 25px 10px 10px 10px;
+    padding: 20px 15px 10px 15px;
+}
+
+h1,
+p {
+    box-sizing: border-box;
+    background-color: #ebebeb;
+    color: #777777;
+    height: 33%;
+    margin: 10px 10px;
+    padding: 10px 10px;
+}
+
+.clearfix {
+    clear: both;
+    overflow: auto;
+}
